@@ -47,6 +47,9 @@ Planner agent ──► brief: what is happening, how sure we are,
 
 **Time-travel replay.** Pick a past date, for example March 2016. Sentinel runs the full pipeline using only the data and documents that had been published by that day, then shows what actually happened next. The warnings, and the failures, can be checked by anyone.
 
+
+Why this matters: [the Attempt-1 case](docs/lookahead-case.md), where a 95% backtest became 50% live.
+
 ---
 
 ## Data
